@@ -1,0 +1,12 @@
+services:
+  web:
+    image: assignment5acr.azurecr.io/web
+    depends_on:
+      db:
+        condition: service_started
+    ports: 
+      - "8081:8080"
+  db:
+    image: assignment5acr.azurecr.io/db
+    ports:
+      - 3306:3306

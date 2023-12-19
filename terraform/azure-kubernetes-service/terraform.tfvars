@@ -1,0 +1,9 @@
+username                        = "azureadmin"
+node_count                      = 2
+vm_size                         = "Standard_B2s"
+keyvault_name                   = "KeVault-SPForTerraform"
+resource_group_keyvault         = "keyvaults-rg"
+keyvault_secret_name_SPApId     = "sp-apid"
+keyvault_secret_name_SPPassword = "sp-password"
+# aks-cluster-rg-name				= "devops-rg"
+# aks-cluster-rg-location			= "East US"
